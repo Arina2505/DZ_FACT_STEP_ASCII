@@ -1,4 +1,4 @@
-#include <iostream>
+Ôªø#include <iostream>
 #include <conio.h>
 
 using namespace std;
@@ -11,10 +11,10 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");
 #ifdef FACTORIAL
-	cout << "\t\t\t\t ‘¿ “Œ–»¿À" << endl;
+	cout << "\t\t\t\t –§–ê–ö–¢–û–†–ò–ê–õ" << endl;
 	cout << endl;
 	int n, a;
-	cout << "¬‚Â‰ËÚÂ Ù‡ÍÚÓË‡Î:"; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ —Ñ–∞–∫—Ç–æ—Ä–∏–∞–ª:"; cin >> n;
 
 	for (int i = 1; i <= n; i++)
 	{
@@ -25,17 +25,17 @@ void main()
 #endif 
 
 #ifdef STEPEN
-	cout << "\t\t\t\t —“≈œ≈Õ‹" << endl;
+	cout << "\t\t\t\t –°–¢–ï–ü–ï–ù–¨" << endl;
 	cout << endl;
-	int a, n;	//ŒÒÌÓ‚‡ÌËÂ Ë ÔÓÍ‡Á‡ÚÂÎ¸ ÒÚÂÔÂÌË
-	int N = 1;	//—ÚÂÔÂÌ¸
-	cout << "¬‚Â‰ËÚÂ ÓÒÌÓ‚‡ÌËÂ ÒÚÂÔÂÌË:"; cin >> a;
-	cout << "¬‚Â‰ËÚÂ ÔÓÍ‡Á‡ÚÂÎ¸ ÒÚÂÔÂÌË:"; cin >> n;
+	int a, n;	//–û—Å–Ω–æ–≤–∞–Ω–∏–µ –∏ –ø–æ–∫–∞–∑–∞—Ç–µ–ª—å —Å—Ç–µ–ø–µ–Ω–∏
+	int N = 1;	//–°—Ç–µ–ø–µ–Ω—å
+	cout << "–í–≤–µ–¥–∏—Ç–µ –æ—Å–Ω–æ–≤–∞–Ω–∏–µ —Å—Ç–µ–ø–µ–Ω–∏:"; cin >> a;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –ø–æ–∫–∞–∑–∞—Ç–µ–ª—å —Å—Ç–µ–ø–µ–Ω–∏:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		N = N * a;
 	}
-	cout << "—ÚÂÔÂÌ¸ ˜ËÒÎ‡:" << n << endl;
+	cout << "–°—Ç–µ–ø–µ–Ω—å —á–∏—Å–ª–∞:" << n << endl;
 #endif // STEPEN
 
 #ifdef ASCII
